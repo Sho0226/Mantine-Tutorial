@@ -52,7 +52,7 @@ export function DoubleNavbar() {
     >
       <UnstyledButton
         onClick={() => setActive(link.label)}
-        className={styles.mainLink}
+        className={styles.mainlink}
         data-active={link.label === active || undefined}
       >
         <link.icon size={22} stroke={1.5} />
